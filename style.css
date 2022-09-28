@@ -1,0 +1,90 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 100%;
+}
+
+.main-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-container h1 {
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.todo-form input {
+  border: none;
+  margin: 0 1em;
+}
+
+.todo-form input:focus {
+  outline: none;
+}
+
+input.todo-text {
+  border-bottom: solid lightgray 2px;
+  padding: 0.5em;
+}
+
+input.todo-text:focus {
+  border-bottom: solid lightskyblue 2px;
+}
+
+input.todo-button {
+  font-size: 1em;
+  padding: 0.5em 0.7em;
+  border: solid 2px lightseagreen;
+}
+
+input.todo-button,
+.task-button,
+.task-checkbox {
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.tasks-list {
+  margin: 2.5em 0;
+}
+
+.task {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid lightgray 2px;
+  padding: 0.5em;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.task-button {
+  font-size: 1.5em;
+}
+
+.task-checkbox {
+  margin-left: 5px;
+  transform: scale(1.5);
+}
+
+.task-text {
+  font-size: 1em;
+  max-width: 150px;
+}
+
+.done {
+  text-decoration: line-through maroon;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "liveco-npm-gulp",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "validate": "w3c-html-validator *.html"
+  },
+  "devDependencies": {
+    "w3c-html-validator": "^1.1.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

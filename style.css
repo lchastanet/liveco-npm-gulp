@@ -42,18 +42,20 @@ input.todo-text:focus {
   border-bottom: solid lightskyblue 2px;
 }
 
-input.todo-button {
-  font-size: 1em;
-  padding: 0.5em 0.7em;
-  border: solid 2px lightseagreen;
-}
-
 input.todo-button,
 .task-button,
 .task-checkbox {
   background-color: #fff;
   cursor: pointer;
   border: none;
+}
+
+input.todo-button {
+  font-size: 1em;
+  padding: 0.5em 0.7em;
+  margin: 0;
+  border-radius: 15px;
+  border: solid 2px lightseagreen;
 }
 
 .tasks-list {
